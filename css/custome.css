@@ -38,3 +38,47 @@
 
 
 /*****header *********/
+/*********banner ********/
+
+
+.topbanner h1 {
+    font-size: 71px;
+    letter-spacing: 5px;
+    line-height: 70px;
+    color: #fff;
+    font-family:  sans-serif;
+}
+
+.topbanner p {
+    font-size: 24px;
+    line-height: 42px;
+    color: #bbd8ff;
+    padding: 20px 0 50px;
+}
+
+
+.topbanner a {
+    max-width: 217px;
+    border-radius: 50px;
+    background: #25365d;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.topbanner a:hover {
+  background: #ff2868;
+}
+
+.banner {
+    background: url(../img/banner.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 1338px;
+    display: block;
+    color:#fff;
+}
+/*****************************/
