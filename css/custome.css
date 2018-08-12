@@ -82,3 +82,45 @@
     color:#fff;
 }
 /*****************************/
+/*****************download ***********/
+.download {
+  position: relative;
+}
+.download img {
+    position: absolute;
+    right: 150px;
+    top: 0;
+    display: block;
+}
+
+.download h2 {
+    font-family: sans-serif;
+    color: #25365d;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.download p {
+    color: #93aac9;
+}
+
+.download a {
+    max-width: 217px;
+    border-radius: 50px;
+    background: #25365d;
+    border: 1px solid #25365d;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.download a:hover {
+    background: #ff2868;
+
+}
+
+/*************8download ***********/
