@@ -200,4 +200,25 @@
     width: 100%;
 }
 
-/********************/
+/***********plan*********/
+#plan {
+     background:#f7f9f8; 
+}
+.plan{
+    background: #fff;
+}
+
+.contact_info h4 {
+    font-size: 22px;
+    color: #25365d;
+    margin: 15px 0 25px;
+}
+
+.contact_info a {
+    margin: 50px 30px 0;
+    display: inline-block;
+    font-size: 22px;
+    color: #25365d;
+    font-weight: 700;
+}
+/***************end plane********/
