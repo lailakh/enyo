@@ -222,3 +222,10 @@
     font-weight: 700;
 }
 /***************end plane********/
+/**********footer*****/
+footer {
+    background: url(../img/bottombanner.jpg) no-repeat bottom center;
+    min-height: 701px;
+    background-size: cover;
+}
+/*************/
