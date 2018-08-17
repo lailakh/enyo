@@ -42,7 +42,7 @@
 }
 
 
-.topbanner a {
+.topbanner >a {
     max-width: 217px;
     border-radius: 50px;
     background: #25365d;
