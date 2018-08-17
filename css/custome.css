@@ -307,10 +307,14 @@ h2 {
 /**************download bottom **********************/
 #download_bottom {
     background:#f7f9f8;
+    padding-top: 40px;
 }
 
 /**************************/
 /*********our feature********/
+#our_feature {
+    padding-top: 60px;
+}
 #our_feature img {
     width: 100%;
 }
