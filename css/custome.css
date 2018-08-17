@@ -13,6 +13,9 @@
 }
 
 /******************/
+nav {
+    background: #0294dd;
+}
 .nav-link:hover{
  color:#ff2868 !important;
 }
@@ -38,7 +41,16 @@ nav ul li {
 
 
 
-
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    border: #dee2e6 1px solid;
+}
 
 
 /*****header *********/
@@ -168,7 +180,11 @@ nav ul li {
 
 
 
+
 /*****************download ***********/
+#download {
+    padding-top: 120px;
+}
 .download {
   
 
@@ -176,16 +192,22 @@ nav ul li {
     padding-bottom: 140px; 
     position: relative;
 
+
 }
 .download img {
     position: absolute;
     right: 0px;
-    top: 98px;
+    top: 220px;
     display: block;
     max-width: 550px;
 }
 
-
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #25365d;
+    font-size: 60px;
+    line-height: 60px;
+}
 
 .download p {
     color: #93aac9;
@@ -215,7 +237,7 @@ nav ul li {
 .download img {
     right: 0;
     max-width: 457px;
-    top: 123px;
+   top: 246px;
 }
 
 }
@@ -227,7 +249,7 @@ nav ul li {
 .download img {
     right: 0;
    max-width: 457px;
-    top: 140px;
+    top: 250px;
 }
 
 .download {
@@ -245,9 +267,10 @@ nav ul li {
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 
 .download img {
-    position: relative;
-    width: 100%;
-    right: 0;
+   
+   
+     max-width: 414px;
+    top: 259px;
 }
 .download h5 {
     padding-right: 0;
@@ -270,10 +293,10 @@ nav ul li {
 
 @media only screen and (max-width: 767px) {
 
+
+
 .download img {
-    position: relative;
-    width: 100%;
-    right: 0;
+    display: none;
 }
 .download h5 {
     padding-right: 0;
@@ -300,6 +323,9 @@ h2 {
 
 
 @media only screen and (max-width: 479px) {
+    .download img {
+   display: none;
+}
     
 .download p span {
     margin-right: 5px;
@@ -344,7 +370,7 @@ h2 {
 /***********plan*********/
 #plan {
      background:#f7f9f8; 
-     padding: 150px 0 110px;
+     padding: 100px 0 110px;
 }
 .plan{
     background: #fff;
