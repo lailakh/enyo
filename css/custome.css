@@ -95,13 +95,14 @@ nav ul li {
 }
 
 .topbanner h1 {
-    font-size: 15px;
-    line-height: 16px;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing:2px;
    
 }
 
 .topbanner p {
-    font-size: 10px;
+    font-size: 16px;
    
 }
 
@@ -115,8 +116,9 @@ nav ul li {
 }
 
 .topbanner h1 {
-    font-size: 27px;
+    font-size: 30px;
     line-height: 40px;
+
    
 }
 
@@ -183,12 +185,7 @@ nav ul li {
     max-width: 550px;
 }
 
-.download h2 {
-    font-family: Oswald ,sans-serif;
-    color: #25365d;
-    font-size: 60px;
-    line-height: 60px;
-}
+
 
 .download p {
     color: #93aac9;
@@ -237,6 +234,10 @@ nav ul li {
     margin-top: -50px;
 }
 
+
+
+
+
 }
 
 
@@ -253,15 +254,12 @@ nav ul li {
 }
 .download {
     margin-top: 0;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
 }
 .download h2 {
     margin-bottom: 10px;
 }
-h2 {
-    font-size: 30px;
-    line-height: 31px;
-}
+
 .download a {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -307,6 +305,11 @@ h2 {
     margin-right: 5px;
 }
 
+h2 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
 }
 
 /*************8download ***********/
@@ -315,6 +318,17 @@ h2 {
     background:#f7f9f8;
     padding-top: 40px;
 }
+
+
+@media only screen and (max-width: 767px) {
+    
+.download_bottom  {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+}
+
 
 /**************************/
 /*********our feature********/
@@ -325,12 +339,7 @@ h2 {
     width: 100%;
 }
 
- h2 {
-    font-family: 'Oswald';
-    color: #25365d;
-    font-size: 60px;
-    line-height: 60px;
-}
+
 
 /***********plan*********/
 #plan {
@@ -376,9 +385,24 @@ h2 {
 }
 /***************end plane********/
 /**********footer*****/
+#upper_footer {
+    margin-top: 140px;
+}
+
+#upper_footer h1 {
+  
+    margin-bottom: 50px;
+    font-family: Oswald;
+
+}
 footer {
     background: url(../img/bottombanner.jpg) no-repeat bottom center;
     min-height: 701px;
     background-size: cover;
+}
+footer p {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 15px;
 }
 /*************/
