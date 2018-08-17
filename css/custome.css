@@ -11,10 +11,23 @@
  color:#ff2868 !important;
 }
 
-.nav-link:active {
+.active {
 
   color:#ff2868 !important;
 
+}
+
+
+nav ul li a {
+    color: #fff;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+nav ul li {
+    
+    padding-right: 20px;
 }
 
 
@@ -149,13 +162,19 @@
 
 /*****************download ***********/
 .download {
-  position: relative;
+  
+
+    margin-top: -100px;
+    padding-bottom: 140px; 
+    position: relative;
+
 }
 .download img {
     position: absolute;
-    right: 150px;
-    top: 0;
+    right: 0px;
+    top: 98px;
     display: block;
+    max-width: 550px;
 }
 
 .download h2 {
@@ -185,6 +204,102 @@
 
 .download a:hover {
     background: #ff2868;
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+
+.download img {
+    right: 0;
+    max-width: 457px;
+    top: 123px;
+}
+
+}
+
+
+
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+
+.download img {
+    right: 0;
+   max-width: 457px;
+    top: 140px;
+}
+
+.download {
+    margin-top: -50px;
+}
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+.download img {
+    position: relative;
+    width: 100%;
+    right: 0;
+}
+.download h5 {
+    padding-right: 0;
+}
+.download {
+    margin-top: 0;
+    padding-bottom: 30px;
+}
+.download h2 {
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 30px;
+    line-height: 31px;
+}
+.download a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+.download img {
+    position: relative;
+    width: 100%;
+    right: 0;
+}
+.download h5 {
+    padding-right: 0;
+}
+.download {
+    margin-top: 0;
+    padding-bottom: 161px;
+}
+.download h2 {
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 30px;
+    line-height: 31px;
+}
+.download a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 479px) {
+    
+.download p span {
+    margin-right: 5px;
+}
 
 }
 
