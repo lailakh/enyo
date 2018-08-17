@@ -325,7 +325,7 @@ h2 {
     width: 100%;
 }
 
-#our_feature h2 {
+ h2 {
     font-family: 'Oswald';
     color: #25365d;
     font-size: 60px;
@@ -335,10 +335,31 @@ h2 {
 /***********plan*********/
 #plan {
      background:#f7f9f8; 
+     padding: 150px 0 110px;
 }
 .plan{
     background: #fff;
 }
+
+.plan h3 {
+
+    font-size: 18px;
+    line-height: 36px;
+    color: #5a5a5a;
+
+}
+
+.plan h2 {
+    padding: 40px 0;
+}
+
+.plan h2 span {
+    font-size: 22px;
+    line-height: 36px;
+    font-family: 'Open Sans', sans-serif;
+    color: #5a5a5a;
+}
+
 
 .contact_info h4 {
     font-size: 22px;
